@@ -12,14 +12,14 @@
 			<div class="mega-menu" aria-label="submenu">
 				<h2>Counseling &amp; Registration</h2>
 					<?php get_template_part( 'template-parts/mega-menu-dropdowns', 'counseling'); ?>
-					
+
 			</div>
 		</li>
 		<li class="droppable"><a href="<?php echo get_home_url(); ?>/extracurricular/" aria-haspopup="true">Extracurricular</a>
 			<div class="mega-menu" aria-label="submenu">
 				<h2>Extracurricular</h2>
 					<?php get_template_part( 'template-parts/mega-menu-dropdowns', 'extracurricular'); ?>
-				
+
 			</div>
 		</li>
 		<li class="droppable"><a href="<?php echo get_home_url(); ?>/policies-forms/" aria-haspopup="true">Policies &amp; Forms</a>
