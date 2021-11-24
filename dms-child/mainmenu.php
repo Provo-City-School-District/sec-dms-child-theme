@@ -15,6 +15,7 @@
 
 			</div>
 		</li>
+		<!--
 		<li class="droppable"><a href="<?php echo get_home_url(); ?>/extracurricular/" aria-haspopup="true">Extracurricular</a>
 			<div class="mega-menu" aria-label="submenu">
 				<h2>Extracurricular</h2>
@@ -22,6 +23,7 @@
 
 			</div>
 		</li>
+	-->
 		<li class="droppable"><a href="<?php echo get_home_url(); ?>/policies-forms/" aria-haspopup="true">Policies &amp; Forms</a>
 			<div class="mega-menu" aria-label="submenu">
 				<h2>Policies &amp; Forms</h2>
