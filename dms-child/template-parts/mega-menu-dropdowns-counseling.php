@@ -20,8 +20,6 @@
 <div class="dropDownColumn">
 	<?php
 		//checks if this template section is loading into the menu or into the sidebar/content area and assigns the proper heading
-		if(is_page( 'counseling-registration/' ) || in_array( 42312, get_post_ancestors($post))){
-			?>/Volumes/MacOS/Users/joshe-work/Library/Caches/Nova/88EE6ACF-3032-4305-881C-A8A835EDD624/158.91.4.26/var/www/html/dms-redux/wp-content/themes/dms-child/template-parts/mega-menu-dropdowns-counseling.php
 			<h2><img src="https://dixon.provo.edu/wp-content/themes/pcsd-2019-theme/assets/icons/registration.svg" alt="" />Registration</h2>
 			<?php
 		} else {
