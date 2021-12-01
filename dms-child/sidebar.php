@@ -3,39 +3,33 @@
 		<h1>About Dixon</h1>
 		<ul class="imagelist">
 			<li>
-				<a href="https://dixon.provo.edu/student-essentials/contact-our-school/">
+				<a href="https://dixon.provo.edu/contact-our-school/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
 					<span>Contact Our School</span>
 				</a>
 			</li>
 			<li>
-				<a href="https://dixon.provo.edu/student-essentials/hours-of-operation/">
+				<a href="https://dixon.provo.edu/hours-of-operation/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
 					<span>Hours of Operation</span>
 				</a>
 			</li>
 			<li>
-				<a href="https://dixon.provo.edu/parent-essentials/community-council/">
+				<a href="https://dixon.provo.edu/community-council/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
 					<span>Community Council</span>
 				</a>
 			</li>
 			<li>
-				<a href="https://provo.edu/school-fees/dixon-middle/">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
-					<span>Fee Schedule</span>
-				</a>
-			</li>
-			<li>
-				<a href="https://dixon.provo.edu/parent-essentials/pta/">
+				<a href="https://dixon.provo.edu/pta/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
 					<span>Parent Teacher Association</span>
 				</a>
 			</li>
 			<li>
-				<a href="https://provo.aliohost.net:7443/AlioFeePay_PSD/Account/Login">
+				<a href="https://dixon.provo.edu/our-teachers-staff/teacher-license-information/">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
-					<span>Pay School Fees</span>
+					<span>Teacher License Information</span>
 				</a>
 			</li>
 		</ul>
