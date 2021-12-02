@@ -34,7 +34,7 @@ Theme specific coloring
 #mainSidebar, #mainFooter {
 	background-color: var(--primary-color);
 }
-#contentArea {background-color:var(--secondary-color);}
+#contentArea {background-color:var(--secondary-color);top: 200px;}
 a {text-decoration: none;color:#45579c;}
 a:hover {color:var(--secondary-color);}
 nav > ul > li:hover > a {
@@ -83,18 +83,22 @@ ul li ~ h3 {list-style: none;}
 /*================================================================================================================
 header styles
 ================================================================================================================*/
+#mainHeader {
+	height: 140px;
+}
 #mainHeader h1 {
 	position: absolute;
-	left: 127px;
+	/* left: 127px; */
+	left: 9999px;
 	top: 8px;
 	color: #fff;
 	font-family: 'Arial Black', Arial;
 	font-weight: 800;
 }
 #mainHeader #siteLogo {
-	width: 90px;
+	width: 440px;
 	margin-top: -10px;
-	margin-left: -14px;
+	margin-left: -45px;
 }
 #mainSidebar h1 {
 	font-size: 1.8em;
@@ -179,6 +183,10 @@ Main Menu
 	background-color: var(--primary-color);
 	font-family: 'Arial Black', Arial;
 	box-shadow: 1px 3px 5px var(--secondary-color);
+	top: 160px;
+}
+#mainMenu > ul {
+	margin-top: 13px;
 }
 #mainMenu > ul > li > a {
 	color: var(--offset-color);
@@ -328,3 +336,4 @@ Calendar plugin styling
      font-size:1.2em;
      z-index:9999;
  }
+
