@@ -12,8 +12,8 @@
 		}
 	?>
 	<ul>
-		<li><a href="https://dixon.provo.edu/couseling-registration/counseling-center/">Counseling Center</a></li>
-		<li><a href="">Find your Counselor</a></li>
+		<li><a href="<?php echo get_home_url(); ?>/counseling-registration/counseling-center/">Counseling Center</a></li>
+		<li><a href="<?php echo get_home_url(); ?>/counseling-registration/find-your-counselor/">Find your Counselor</a></li>
 	</ul>
 </div>
 
@@ -31,13 +31,13 @@
 		}
 	?>
 	<ul>
-		<li><a href="https://dixon.provo.edu/counseling-registration/registration-information/">Registration Information</a></li>
+		<li><a href="<?php echo get_home_url(); ?>/counseling-registration/registration-information/">Registration Information</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/02/2021-2022-Dixon-Course-Description-.pdf">2021-2022 Dixon Course Description</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/02/2021-2022-8th-Grade-Registration-Instructions.pdf">2021-2022 8th Grade Registration Instructions</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/02/2021-2022-8vo-Grado-Instrucciones-para-Inscripcion.pdf">2021-2022 8vo Grado Instrucciones para Inscripción</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/03/2021-2022-7th-Grade-Registration-Instructions.pdf">2021-2022 7th Grade Registration Instructions</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/03/2021-2022-Spanish-7th-Grade-Registration-Instructions.pdf">2021-2022 Spanish 7th Grade Registration Instructions</a></li>
-		<li><a href="https://dixon.provo.edu/counseling-registration/2021-2022-registration-faq/">2021-2022 Registration FAQ</a></li>
+		<li><a href="<?php echo get_home_url(); ?>/counseling-registration/2021-2022-registration-faq/">2021-2022 Registration FAQ</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/03/2021-2022-Principals-Letter-for-6th-Grade-Students-and-Parents.pdf">2021-2022 Principal's Letter for 6th Grade Students and Parents</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/03/2021-2022-Spanish-Principals-Letter-for-6th-Grade-Students-and-Parents.pdf">2021-2022 Spanish Principal's Letter for 6th Grade Students and Parents</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/02/2021-2022-Immunization-Requirements.pdf">2021-2022 Immunization Requirements</a></li>
@@ -62,8 +62,8 @@
 	?>
 	<ul>
 		<li><a href="https://provo.edu/school-fees/dixon-middle/">Fee Schedule</a></li>
-		<li><a href="https://dixon.provo.edu/school-fees-notice/">School Fees Notice</a></li>
-		<li><a href="https://dixon.provo.edu/aviso-de-cuotas-escolares/">School Fees Notice (Spanish)</a></li>
+		<li><a href="<?php echo get_home_url(); ?>/counseling-registration/school-fees-notice/">School Fees Notice</a></li>
+		<li><a href="<?php echo get_home_url(); ?>/counseling-registration/aviso-de-cuotas-escolares/">School Fees Notice (Spanish)</a></li>
 		<li><a href="https://provo.edu/wp-content/uploads/2021/07/6160-FeeWaiverApplication7-12.pdf"><span class="hidden">6160 Form 1 </span>Fee Waiver Application</a></li>
 		<li><a href="https://provo.edu/wp-content/uploads/2021/07/6160-FeeWaiverApplication7-12Spanish.pdf"><span class="hidden">6160 </span>Solicitud de Exoneracion de Cuotas</a></li>
 		<li><a href="https://provo.aliohost.net:7443/AlioFeePay_PSD/Account/Login">Pay School Fees</a></li>

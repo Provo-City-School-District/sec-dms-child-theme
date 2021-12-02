@@ -13,8 +13,8 @@
 					?>
 					<ul>
 						<li><a href="https://dixon.provo.edu/wp-content/uploads/2021/07/Dixon-Student-Handbook-21-22.pdf">Student Handbook</a></li>
-						<li><a href="https://dixon.provo.edu/policies-forms/after-school-program-rules-and-policies/">After School Program Rules and Policies</a></li>
-						<li><a href="https://dixon.provo.edu/policies-forms/dress-grooming-standards/">Dress and Grooming Standards</a></li>
+						<li><a href="<?php echo get_home_url(); ?>/policies-forms/after-school-program-rules-and-policies/">After School Program Rules and Policies</a></li>
+						<li><a href="<?php echo get_home_url(); ?>/policies-forms/dress-grooming-standards/">Dress and Grooming Standards</a></li>
 					</ul>
 				</div>
 				<div class="dropDownColumn">
