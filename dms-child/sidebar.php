@@ -37,11 +37,10 @@
 
 	<section class="calendar-agenda">
 		<h1>Today’s Events</h1>
-		<?php echo do_shortcode('[calendar id="42982"]'); ?>
-		<a href="<?php echo get_home_url(); ?>/school-information/all-events-calendar/">View School Calendar</a>
+		<?php echo do_shortcode('[calendar id="18433"]'); ?>
+		<a href="<?php echo get_home_url(); ?>/student-essentials/calendar/">View School Calendar</a>
 	</section>
 	<section class="buttonAddons">
-
 		<a href="https://www.peachjar.com/index.php?region=33081&a=28&b=138"><img src="https://timpview.provo.edu/wp-content/uploads/2019/05/button-orange-eflyers_202x46.png" alt="Link to PeachJar Fliers"></a>
 		<a href="https://safeut.med.utah.edu/"><img src="https://timpview.provo.edu/wp-content/uploads/2019/03/safeUTcrisisline.jpg" alt="Link to SafeUT information"></a>
 		<a href="https://www.saferoutesutahmap.com/organization/schools/map"><img src="https://provo.edu/wp-content/uploads/2020/03/saferoutesutah.jpg" alt="Link to Safe Routes UT information"></a>
