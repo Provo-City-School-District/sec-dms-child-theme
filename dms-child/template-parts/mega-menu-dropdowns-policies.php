@@ -1,7 +1,7 @@
 				<div class="dropDownColumn">
 					<?php
 						//checks if this template section is loading into the menu or into the sidebar/content area and assigns the proper heading
-						if(is_page( 'policies-forms' ) || in_array( 18328, get_post_ancestors($post))){
+						if(is_page( 'policies-forms' ) || in_array( 18415, get_post_ancestors($post))){
 							?>
 							<h2><img src="https://dixon.provo.edu/wp-content/themes/pcsd-2019-theme/assets/icons/policy.svg" alt="" />Policies</h2>
 							<?php
@@ -20,7 +20,7 @@
 				<div class="dropDownColumn">
 					<?php
 						//checks if this template section is loading into the menu or into the sidebar/content area and assigns the proper heading
-						if(is_page( 'policies-forms' ) || in_array( 18328, get_post_ancestors($post))){
+						if(is_page( 'policies-forms' ) || in_array( 18415, get_post_ancestors($post))){
 							?>
 							<h2><img src="https://dixon.provo.edu/wp-content/themes/pcsd-2019-theme/assets/icons/form.svg" alt="" />Forms</h2>
 							<?php

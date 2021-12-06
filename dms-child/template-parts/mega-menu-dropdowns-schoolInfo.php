@@ -1,7 +1,7 @@
 <div class="dropDownColumn">
 	<?php
 		//checks if this template section is loading into the menu or into the sidebar/content area and assigns the proper heading
-		if(is_page( 'student-essentials' ) || in_array( 18322, get_post_ancestors($post))){
+		if(is_page( 'student-essentials' ) || in_array( 18411, get_post_ancestors($post))){
 			?>
 			<h2><img src="https://dixon.provo.edu/wp-content/themes/pcsd-2019-theme/assets/icons/calendars.svg" alt="" />Calendars</h2>
 			<?php
@@ -18,7 +18,7 @@
 		</ul>
 		<?php
 		//checks if this template section is loading into the menu or into the sidebar/content area and assigns the proper heading
-		if(is_page( 'student-essentials' ) || in_array( 18322, get_post_ancestors($post))){
+		if(is_page( 'student-essentials' ) || in_array( 18411, get_post_ancestors($post))){
 			?>
 			<h2><img src="https://dixon.provo.edu/wp-content/themes/pcsd-2019-theme/assets/icons/school-info.svg" alt="" />Library Media Center</h2>
 			<?php
@@ -36,7 +36,7 @@
 <div class="dropDownColumn">
 	<?php
 		//checks if this template section is loading into the menu or into the sidebar/content area and assigns the proper heading
-		if(is_page( 'student-essentials' ) || in_array( 18322, get_post_ancestors($post))){
+		if(is_page( 'student-essentials' ) || in_array( 18411, get_post_ancestors($post))){
 			?>
 			<h2><img src="https://dixon.provo.edu/wp-content/themes/pcsd-2019-theme/assets/icons/school-info.svg" alt="" />Resources</h2>
 			<?php
@@ -55,7 +55,7 @@
 		</ul>
 	<?php
 		//checks if this template section is loading into the menu or into the sidebar/content area and assigns the proper heading
-		if(is_page( 'student-essentials' ) || in_array( 18322, get_post_ancestors($post))){
+		if(is_page( 'student-essentials' ) || in_array( 18411, get_post_ancestors($post))){
 			?>
 			<h2><img src="https://dixon.provo.edu/wp-content/themes/pcsd-2019-theme/assets/icons/school-info.svg" alt="" />Programs</h2>
 			<?php
@@ -77,7 +77,7 @@
 <div class="dropDownColumn">
 	<?php
 		//checks if this template section is loading into the menu or into the sidebar/content area and assigns the proper heading
-		if(is_page( 'student-essentials' ) || in_array( 18322, get_post_ancestors($post))){
+		if(is_page( 'student-essentials' ) || in_array( 18411, get_post_ancestors($post))){
 			?>
 			<h2><img src="<?php echo get_home_url(); ?>/wp-content/themes/pcsd-2019-theme/assets/icons/school-meals.svg" alt="" />School Meals</h2>
 			<?php
