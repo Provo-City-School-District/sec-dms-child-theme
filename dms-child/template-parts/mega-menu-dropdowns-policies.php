@@ -39,7 +39,7 @@
 					</ul>
 
 				</div>
-				<div class="dropDownColumn">
+				<div class="dropDownColumn noheading">
 					<ul>
 						<li><a href="https://dixon.provo.edu/wp-content/uploads/2021/02/2021-2022-Immunization-Requirements.pdf">2021-2022 Immunization Requirements Form</a></li>
 						<li><a href="https://dixon.provo.edu/wp-content/uploads/2021/02/2021-2022-Vacunas.pdf">2021-2022 Immunization Requirements Form (Spanish)</a></li>

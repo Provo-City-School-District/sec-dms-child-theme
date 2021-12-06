@@ -38,6 +38,7 @@
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/03/2021-2022-7th-Grade-Registration-Instructions.pdf">2021-2022 7th Grade Registration Instructions</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/03/2021-2022-Spanish-7th-Grade-Registration-Instructions.pdf">2021-2022 Spanish 7th Grade Registration Instructions</a></li>
 		<li><a href="<?php echo get_home_url(); ?>/counseling-registration/2021-2022-registration-faq/">2021-2022 Registration FAQ</a></li>
+<div class="dropDownColumn noheading">
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/03/2021-2022-Principals-Letter-for-6th-Grade-Students-and-Parents.pdf">2021-2022 Principal's Letter for 6th Grade Students and Parents</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/03/2021-2022-Spanish-Principals-Letter-for-6th-Grade-Students-and-Parents.pdf">2021-2022 Spanish Principal's Letter for 6th Grade Students and Parents</a></li>
 		<li><a href="http://dixon.provo.edu/wp-content/uploads/2021/02/2021-2022-Immunization-Requirements.pdf">2021-2022 Immunization Requirements</a></li>
