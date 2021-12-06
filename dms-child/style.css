@@ -99,8 +99,8 @@ header styles
 	font-weight: 800;
 }
 #mainHeader #siteLogo {
-	width: 440px;
-	margin-top: -10px;
+	width: 545px;
+	margin-top: -20px;
 	margin-left: -45px;
 }
 #mainSidebar h1 {
@@ -185,11 +185,8 @@ Main Menu
 #mainMenu {
 	background-color: var(--primary-color);
 	font-family: 'Arial Black', Arial;
-	top: 160px;
-}
-#mainMenu > ul {
-	margin-top: 13px;
 	box-shadow: 1px 3px 5px var(--offset-color);
+	top: 173px;
 }
 #mainMenu > ul > li > a {
 	color: var(--offset-color);
@@ -300,23 +297,17 @@ Calendar plugin styling
 	border-radius: 3px;
 	color: #02224f;
 }
-#mainSidebar .simcal-calendar a {color:#45579c;}
 #mainSidebar .simcal-calendar a {color:var(--primary-color);}
 #mainSidebar .simcal-calendar a:hover {color:var(--secondary-color);}
 #mainSidebar .simcal-calendar .simcal-event-title {font-weight: bold;}
 #mainSidebar .simcal-calendar .simcal-current {display: none;}
-#mainSidebar .simcal-default-calendar-dark .simcal-nav-button {color: #02365b!important;}
-#mainSidebar .simcal-default-calendar-list dt.simcal-day-label > span {width: 94%;color: #fff!important;}
-#mainSidebar .simcal-default-calendar-list .simcal-event-details {border-bottom: 1px solid #02365b;}
 #mainSidebar .simcal-default-calendar-dark .simcal-nav-button {color: var(--primary-color);}
 #mainSidebar .simcal-default-calendar-list dt.simcal-day-label > span {width: 94%;color: var(--primary-color);}
 #mainSidebar .simcal-default-calendar-list .simcal-event-details {border-bottom: 1px solid var(--primary-color);}
 #mainSidebar .simcal-default-calendar-list .simcal-event-details .simcal-event-description {display: none;}
 /*#mainSidebar .simcal-default-calendar-list .simcal-event-details .simcal-event-start-date {display: none;} */
-.single-page .simcal-day-label {background-color: #02224f!important;}
-.single-page .simcal-present div {border: 1px solid var(--secondary-color)!important; }
-.single-page .simcal-present .simcal-day-label {background-color: #fc7e02!important;}
 .single-page .simcal-day-label {background-color: var(--primary-color);}
+.single-page .simcal-present div {border: 1px solid var(--secondary-color); }
 .single-page .simcal-present .simcal-day-label {background-color:var(--secondary-color);}
  /*================================================================================================================
  skip link styling
@@ -345,4 +336,6 @@ Calendar plugin styling
      font-size:1.2em;
      z-index:9999;
  }
-
+#mainSidebar {
+	top: 200px;
+}

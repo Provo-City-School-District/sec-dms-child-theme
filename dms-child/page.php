@@ -11,7 +11,7 @@
 						while (have_posts()) : the_post();?>
 
 						   			<h1><?php the_title(); ?></h1>
-						   			<?php 
+						   			<?php
 							   			if ( has_post_thumbnail() ) {
 								   			echo get_the_post_thumbnail( $post_id, 'full' );
 								   			}
@@ -32,15 +32,13 @@
 		   		get_sidebar( 'about' );
 	   		} elseif(in_array( 18413, get_post_ancestors($post))) {
 		   		get_sidebar( 'counseling' );
-	   		} elseif(in_array( 18413, get_post_ancestors($post))) {
-		   		get_sidebar( 'extracurricular' );
 	   		} elseif(in_array( 18415, get_post_ancestors($post))) {
 		   		get_sidebar( 'policies-forms' );
-	   		} elseif(in_array( 18417, get_post_ancestors($post))) {
+	   		} elseif(in_array( 18476, get_post_ancestors($post))) {
 		   		get_sidebar( 'faculty-staff' );
 	   		} else {
 		   		get_sidebar( $sidebar );
 	   		}
 
 			get_footer();
-		?>		?>
+		?>
