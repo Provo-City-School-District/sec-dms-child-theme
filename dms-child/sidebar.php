@@ -4,31 +4,31 @@
 		<ul class="imagelist">
 			<li>
 				<a href="https://dixon.provo.edu/contact-our-school/">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/telephone.png" alt="" />
 					<span>Contact Our School</span>
 				</a>
 			</li>
 			<li>
 				<a href="https://dixon.provo.edu/hours-of-operation/">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/clock.png" alt="" />
 					<span>Hours of Operation</span>
 				</a>
 			</li>
 			<li>
 				<a href="https://dixon.provo.edu/community-council/">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/council.png" alt="" />
 					<span>Community Council</span>
 				</a>
 			</li>
 			<li>
 				<a href="https://dixon.provo.edu/pta/">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/pta.png" alt="" />
 					<span>Parent Teacher Association</span>
 				</a>
 			</li>
 			<li>
 				<a href="https://dixon.provo.edu/our-teachers-staff/teacher-license-information/">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/file-white.svg" alt="" />
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/license.png" alt="" />
 					<span>Teacher License Information</span>
 				</a>
 			</li>
