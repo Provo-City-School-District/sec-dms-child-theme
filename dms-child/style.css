@@ -14,8 +14,8 @@
 Variables
 ================================================================================================================*/
 :root {
-	--primary-color:#000;
-	--secondary-color:#ffff21;
+	--primary-color:#131723;
+	--secondary-color:#f57721;
 	--offset-color:#ffff21;
 	--grid-odd-clr:#e1e9f4;
 	--grid-even-clr:#cddbee;
@@ -41,7 +41,10 @@ nav > ul > li:hover > a {
 	color: #69aae0;
 }
 #teacherAccess {background-color: #324145;}
-#mainHeader .contactinfo{color: var(--secondary-color);}
+#mainHeader .contactinfo{color: var(--offset-color);}
+#breadcrumbs,#breadcrumbs a {color:var(--primary-color);}
+
+#teacherAccess {background-color: var(--primary-color);}
 /*============================
 Post grid
 ==============================*/
@@ -182,11 +185,11 @@ Main Menu
 #mainMenu {
 	background-color: var(--primary-color);
 	font-family: 'Arial Black', Arial;
-	box-shadow: 1px 3px 5px var(--secondary-color);
 	top: 160px;
 }
 #mainMenu > ul {
 	margin-top: 13px;
+	box-shadow: 1px 3px 5px var(--offset-color);
 }
 #mainMenu > ul > li > a {
 	color: var(--offset-color);
@@ -298,17 +301,23 @@ Calendar plugin styling
 	color: #02224f;
 }
 #mainSidebar .simcal-calendar a {color:#45579c;}
+#mainSidebar .simcal-calendar a {color:var(--primary-color);}
 #mainSidebar .simcal-calendar a:hover {color:var(--secondary-color);}
 #mainSidebar .simcal-calendar .simcal-event-title {font-weight: bold;}
 #mainSidebar .simcal-calendar .simcal-current {display: none;}
 #mainSidebar .simcal-default-calendar-dark .simcal-nav-button {color: #02365b!important;}
 #mainSidebar .simcal-default-calendar-list dt.simcal-day-label > span {width: 94%;color: #fff!important;}
 #mainSidebar .simcal-default-calendar-list .simcal-event-details {border-bottom: 1px solid #02365b;}
+#mainSidebar .simcal-default-calendar-dark .simcal-nav-button {color: var(--primary-color);}
+#mainSidebar .simcal-default-calendar-list dt.simcal-day-label > span {width: 94%;color: var(--primary-color);}
+#mainSidebar .simcal-default-calendar-list .simcal-event-details {border-bottom: 1px solid var(--primary-color);}
 #mainSidebar .simcal-default-calendar-list .simcal-event-details .simcal-event-description {display: none;}
 /*#mainSidebar .simcal-default-calendar-list .simcal-event-details .simcal-event-start-date {display: none;} */
 .single-page .simcal-day-label {background-color: #02224f!important;}
 .single-page .simcal-present div {border: 1px solid var(--secondary-color)!important; }
 .single-page .simcal-present .simcal-day-label {background-color: #fc7e02!important;}
+.single-page .simcal-day-label {background-color: var(--primary-color);}
+.single-page .simcal-present .simcal-day-label {background-color:var(--secondary-color);}
  /*================================================================================================================
  skip link styling
  ================================================================================================================*/
