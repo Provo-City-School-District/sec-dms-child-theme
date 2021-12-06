@@ -797,7 +797,7 @@ Sidebar
 	padding: 5px 0 5px 5px;
 }
 #mainSidebar .postmeta h2 {
-	background-color: transparent; 
+	background-color: transparent;
 	color: #fff;
 }
 #mainSidebar section {margin-bottom: 70px;}
@@ -830,25 +830,17 @@ Sidebar
     font-size: 1em;
     margin-left: 0;
 }
-.imagelist {margin-left: 0;}
-.imagelist li {
-	list-style: none;
-	margin-left: 0;
-}
+.imagelist {margin-left: 0;list-style: none;}
 .imagelist li img {
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    margin-right: 10px;
-    vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
 }
-.imagelist li a span {
-    display: inline-block;
-    vertical-align: middle;
-    width: 180px;
+.imagelist li span {
+	padding-top:5px;
 }
 .calendar-agenda a {
-	float: right; 
+	float: right;
 	margin-top: 20px;
 }
 #mainSidebar .simcal-default-calendar-list .simcal-event-details p {margin: 0 0 0!important;}
@@ -856,10 +848,11 @@ Sidebar
 	display: block;
 	margin:0;
 }
-.imagelist ~ a {
+.imagelist li a {
 	margin-top: 20px;
 	margin-bottom: 15px;
-	display: block;
+	display: grid;
+	grid-template-columns: 10% 90%;
 }
 /*
 ================================================================================================================
@@ -871,7 +864,7 @@ Footer
 	z-index: 1;
 	margin-top: -38px;
 	border-radius: 3px;
-	padding: 0 20px 0 10px;
+	padding: 0 20px 0 0px;
 }
 #teacherAccess .teacherActivate {
 	font-size: 1.2em;
