@@ -7,11 +7,11 @@
 			  window.dataLayer = window.dataLayer || [];
 			  function gtag(){dataLayer.push(arguments);}
 			  gtag('js', new Date());
-			
+
 			  gtag('config', 'UA-59126000-1');
 			</script>
-			
-			
+
+
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title><?php if (is_home() ) {?>News | <?php } ?><?php if (is_page() ) {the_title();?> | <?php } ?><?php if ( is_single() ) {the_title(); ?> | <?php } ?><?php bloginfo('name'); ?></title>
@@ -25,10 +25,10 @@
 		<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri().'/assets/favicon/filename'; ?>" sizes="16x16">
 		<!-- Favicon End -->
 		<?php
-		
+
 		if (has_post_thumbnail()) {
 		?>
-		<meta property="og:image" content="<?php echo get_the_post_thumbnail_url(); ?>" />	
+		<meta property="og:image" content="<?php echo get_the_post_thumbnail_url(); ?>" />
 		<?php
 		} else {
 		?>
@@ -42,7 +42,7 @@
 		<?php include_once("analyticstracking.php") ?>
 		 <a class="skip-to-menu" href="#mainMenu">Skip to main menu</a>
 		 <a class="skip-to-content" href="#contentArea">Skip to main content</a>
- 
+
 		<header id="pcsdBranding">
 			<img src="<?php echo get_template_directory_uri() .'/assets/icons/pcsd-logo-website-header-branding.png' ?>" alt="Provo City School District Logo" />
 			<h1><a href="https://provo.edu">Provo City School District</a></h1>
@@ -53,12 +53,12 @@
 			</a>
 				<aside>
 					<ul class="sociallinks">
-					<!--	
+					<!--
 						<li><a href="http://instagram.com/Timpview_T_Birds"><img src="<?php echo get_template_directory_uri() .'/assets/icons/socialmedia-instagram-white.svg' ?>" alt="Link to Instagram" /></span>
 							</a>
-						</li> 
+						</li>
 					-->
-					<!--	
+					<!--
 						<li><a href="https://twitter.com/@timpview_tbirds"><img src="<?php echo get_template_directory_uri() .'/assets/icons/socialmedia-twitter-white.svg' ?>" alt="Link to Twitter" /></span>
 							</a>
 						</li>
@@ -72,7 +72,7 @@
 			   			<label for="s" class="visuallyhidden" id="websitesearch">Website Search: </label>
 			   			<input class="search-input" aria-labelledby="websitesearch" id="s" name="s" type="text" value="<?php the_search_query(); ?>" placeholder="Search this website..." />
 			   			<input class="search-submit search-icon" type="submit" value="Search" />
-		
+
 					</form>
 					<!-- end Search Form -->
 					<!-- Contact Information -->
@@ -85,8 +85,7 @@
 			<input type="checkbox" id="reveal-menu" role="button">
 			<label class="mobileMenu" for="reveal-menu" onclick><img src="<?php echo get_template_directory_uri() . '/assets/icons/menu.svg'; ?>" alt="" />Menu</label>
 			<?php
-				 get_template_part( 'mainmenu' ); 
+				 get_template_part( 'mainmenu' );
 			?>
 		</nav>
 		</header>
-		
