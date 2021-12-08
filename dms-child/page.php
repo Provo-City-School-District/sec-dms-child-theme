@@ -28,13 +28,13 @@
 		</main>
 		<?php
 	   		global $post;
-	   		if(in_array( 18411, get_post_ancestors($post))) {
+	   		if(in_array( 18322, get_post_ancestors($post))) {
 		   		get_sidebar( 'about' );
-	   		} elseif(in_array( 18413, get_post_ancestors($post))) {
+	   		} elseif(in_array( 18379, get_post_ancestors($post))) {
 		   		get_sidebar( 'counseling' );
-	   		} elseif(in_array( 18415, get_post_ancestors($post))) {
+	   		} elseif(in_array( 18328, get_post_ancestors($post))) {
 		   		get_sidebar( 'policies-forms' );
-	   		} elseif(in_array( 18476, get_post_ancestors($post))) {
+	   		} elseif(in_array( 18419, get_post_ancestors($post))) {
 		   		get_sidebar( 'faculty-staff' );
 	   		} else {
 		   		get_sidebar( $sidebar );
