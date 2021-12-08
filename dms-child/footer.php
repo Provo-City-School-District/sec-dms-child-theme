@@ -35,7 +35,7 @@
 		    var cludoSettings = {
 		        customerId: 10000352,
 		        engineId: 10000520,
-		        searchUrl: 'https://dixon.provo.edu/search-results/',
+		        searchUrl: '<?php echo get_home_url(); ?>/search-results/',
 		        language: 'en',
 		        searchInputs: ['cludo-search-form'],
 		        template: 'StandardInlineImages',
