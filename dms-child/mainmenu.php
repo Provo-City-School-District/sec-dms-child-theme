@@ -40,7 +40,7 @@
 <div  class="mobile-menu">
 	<ul>
 	   <li><a href="<?php echo get_home_url(); ?>">News</a></li>
-	   <li><a href="<?php echo get_home_url(); ?>/school-information/">Student Essentials</a></li>
+	   <li><a href="<?php echo get_home_url(); ?>/student-essentials/">Student Essentials</a></li>
 	   <li><a href="<?php echo get_home_url(); ?>/counseling-registration/">Counseling &amp; Registration</a></li>
 	   <li><a href="<?php echo get_home_url(); ?>/extracurricular/">Extracurricular</a></li>
 	   <li><a href="<?php echo get_home_url(); ?>/policies-forms/">Policies & Forms</a></li>
