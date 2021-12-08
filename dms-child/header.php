@@ -77,7 +77,7 @@
 					<!-- end Search Form -->
 					<!-- Contact Information -->
 					<ul class="contactinfo" itemscope itemtype="https://schema.org/PostalAddress">
-						<li><span itemprop="streetAddress">750 West 200 North Provo</span><span itemprop="addressLocality"> Provo</span>, <span itemprop="addressRegion">Utah</span> <span itemprop="postalCode">84604</span><span class="phone" itemprop="telephone"> Phone: (801) 374-4980</span><span class="fax" itemprop="faxNumber"> Fax: (801) 374-4884</span>
+						<li><span itemprop="streetAddress">750 West 200 North Provo</span><span itemprop="addressLocality"> Provo</span>, <span itemprop="addressRegion">Utah</span> <span itemprop="postalCode">84604</span><span class="phone" itemprop="telephone"> Phone: (801) 374-4980</span><span class="fax" itemprop="faxNumber"> Fax: (801) 374-4884</span></li>
 					</ul>
 					<!-- End Contact Information -->
 				</aside>
