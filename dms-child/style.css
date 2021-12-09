@@ -103,7 +103,7 @@ header styles
 }
 #mainHeader {
   /*  background-image: url('https://timpview.provo.edu/wp-content/themes/timpview-child/assets/images/header-background.jpg'); */
-	background-color:var(--primary-color);
+	background-color:#000;
 }
 #mainHeader .contactinfo li span.phone, #mainHeader .contactinfo li span.fax {
 	margin-left: 17px;
