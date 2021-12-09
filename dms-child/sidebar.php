@@ -32,6 +32,12 @@
 					<span>Teacher License Information</span>
 				</a>
 			</li>
+			<li>
+				<a href="<?php echo get_site_url(); ?>/history/">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/icons/history.png" alt="" />
+					<span>Dixon Middle School History</span>
+				</a>
+			</li>
 		</ul>
 	</section>
 
