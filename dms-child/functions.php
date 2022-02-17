@@ -51,6 +51,32 @@ function my_login_logo_url_title() {
 return 'Dixon Middle School | Provo City School District';
 }
 add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+/*-------------------------------------------------------*/
+// page for view all digital signage
+/*-------------------------------------------------------*/
+
+add_action( 'admin_menu', 'pcsd_digitalsignage_admin_menu' );
+function pcsd_digitalsignage_admin_menu() {
+  add_menu_page( 'Digital Signage View All', 'Digital Signage View All', 'edit_digital_signages', 'digitalsignage-viewall.php', 'digitalsignage_viewall', 'https://globalassets.provo.edu/image/icons/pcsd-icon-16x16.png', 8  );
+}
+function digitalsignage_viewall(){
+	?>
+	<style>
+		div.viewall {
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+
+		}
+	  iframe {width: 100%;min-height: 300px;}
+	</style>
+	<div class="viewall">
+	<iframe src="https://dixon.provo.edu/digital-signage-child-nutrition-line-1/"></iframe>
+	<iframe src="https://dixon.provo.edu/digital-signage-child-nutrition-line-2/"></iframe>
+	<iframe src="https://dixon.provo.edu/digital-signage-south-west-hallway-first-floor/"></iframe>
+	<iframe src="https://dixon.provo.edu/digital-signage-south-west-hallway-second-floor/"></iframe>
+	</div>
+	<?php
+}
 /*==========================================================================================
 // ShortCodes
 ============================================================================================*/
