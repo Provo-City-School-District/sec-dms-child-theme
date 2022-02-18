@@ -69,11 +69,19 @@ function digitalsignage_viewall(){
 		}
 	  iframe {width: 100%;min-height: 300px;}
 	</style>
+
+	<h2>Lunch Menu</h2>
 	<div class="viewall">
 	<iframe src="https://dixon.provo.edu/digital-signage-child-nutrition-line-1/"></iframe>
 	<iframe src="https://dixon.provo.edu/digital-signage-child-nutrition-line-2/"></iframe>
-	<iframe src="https://dixon.provo.edu/digital-signage-south-west-hallway-first-floor/"></iframe>
-	<iframe src="https://dixon.provo.edu/digital-signage-south-west-hallway-second-floor/"></iframe>
+	</div>
+	<h2>Hallway Announcement</h2>
+	<div class="viewall">
+	<iframe src="https://dixon.provo.edu/digital-signage-monday/"></iframe>
+	<iframe src="https://dixon.provo.edu/digital-signage-tuesday/"></iframe>
+	<iframe src="https://dixon.provo.edu/digital-signage-wednesday/"></iframe>
+	<iframe src="https://dixon.provo.edu/digital-signage-thursday/"></iframe>
+	<iframe src="https://dixon.provo.edu/digital-signage-friday/"></iframe>
 	</div>
 	<?php
 }
