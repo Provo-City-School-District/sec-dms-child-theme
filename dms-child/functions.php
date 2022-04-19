@@ -88,3 +88,28 @@ function digitalsignage_viewall(){
 /*==========================================================================================
 // ShortCodes
 ============================================================================================*/
+//Display Modified Date [modified-date]
+function modifiedDate_func(){
+	if(!is_page(array(43440,43437,43399,42984,43435, 42742,42740,42744,42746))) {
+		?>
+		 <p class="lastmodified"><em>Last modified: <?php the_modified_date(); ?></em></p>
+		<?php
+	}
+}
+add_shortcode( 'modified-date', 'modifiedDate_func' );
+//sidebar controll [sidebar-control]
+function sidebar_func(){
+		//global $post;
+		  if(in_array( 18322, get_post_ancestors($post))) {
+				 get_sidebar( 'about' );
+			 } elseif(in_array( 18379, get_post_ancestors($post))) {
+				 get_sidebar( 'counseling' );
+			 } elseif(in_array( 18328, get_post_ancestors($post))) {
+				 get_sidebar( 'policies-forms' );
+			 } elseif(in_array( 18419, get_post_ancestors($post))) {
+				 get_sidebar( 'faculty-staff' );
+			 } else {
+				 get_sidebar( $sidebar );
+			 }
+}
+add_shortcode( 'sidebar-control', 'sidebar_func' );
